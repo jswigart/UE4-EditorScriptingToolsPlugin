@@ -76,6 +76,7 @@ public class EditorScriptingTools : ModuleRules
                 "PlacementMode",
                 "SettingsEditor",
                 "ApplicationCore",
+				"EditorFramework"
             });
 
         DynamicallyLoadedModuleNames.Add("AssetTools");

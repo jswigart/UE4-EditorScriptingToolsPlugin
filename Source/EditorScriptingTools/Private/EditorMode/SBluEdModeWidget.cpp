@@ -17,7 +17,6 @@
 
 #include "Modules/ModuleManager.h"
 #include "PropertyEditorModule.h" 
-#include "Toolkits/AssetEditorManager.h"
 #include "UnrealEdGlobals.h"
 #include "PropertyPath.h"
 #include "DetailLayoutBuilder.h" 
@@ -245,7 +244,7 @@ void SBluEdModeWidget::Construct(const FArguments& InArgs)
 											.ColorAndOpacity(FLinearColor(0.8f,0.8f,0.8f,1.0f))
 											.TextStyle(FEditorStyle::Get(), "ContentBrowser.TopBar.Font")
 											.Font(FEditorStyle::Get().GetFontStyle("FontAwesome.11"))
-											.Text(FEditorFontGlyphs::List)
+											.Text(FEditorFontGlyphs::Bars)
 										]
 									]
 									+ SHorizontalBox::Slot()
@@ -263,7 +262,7 @@ void SBluEdModeWidget::Construct(const FArguments& InArgs)
 											.ColorAndOpacity(FLinearColor(0.65f,0.4f,0.15f,1.0f))
 											.TextStyle(FEditorStyle::Get(), "ContentBrowser.TopBar.Font")
 											.Font(FEditorStyle::Get().GetFontStyle("FontAwesome.11"))
-											.Text(FEditorFontGlyphs::Search)
+											.Text(FEditorFontGlyphs::Hourglass)
 										]
 									]
 									+ SHorizontalBox::Slot()

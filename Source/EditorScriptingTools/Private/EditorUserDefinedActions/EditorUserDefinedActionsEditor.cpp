@@ -724,7 +724,7 @@ void FEditorUserDefinedActionsLayout::GenerateChildContent(IDetailChildrenBuilde
 						SNew(STextBlock)
 						.TextStyle(FEditorStyle::Get(), "ContentBrowser.TopBar.Font")
 						.Font( FEditorStyle::Get().GetFontStyle( "FontAwesome.12" ) )
-						.Text( FEditorFontGlyphs::Repeat )
+						.Text( FEditorFontGlyphs::Arrow_Circle_O_Right)
 					]
 
 					+ SHorizontalBox::Slot()
@@ -758,7 +758,7 @@ void FEditorUserDefinedActionsLayout::GenerateChildContent(IDetailChildrenBuilde
 						SNew(STextBlock)
 						.TextStyle(FEditorStyle::Get(), "ContentBrowser.TopBar.Font")
 						.Font( FEditorStyle::Get().GetFontStyle( "FontAwesome.12" ) )
-						.Text( FEditorFontGlyphs::Keyboard_O)
+						.Text( FEditorFontGlyphs::Archive)
 					]
 
 					+ SHorizontalBox::Slot()
@@ -791,7 +791,7 @@ void FEditorUserDefinedActionsLayout::GenerateChildContent(IDetailChildrenBuilde
 						SNew(STextBlock)
 						.TextStyle(FEditorStyle::Get(), "ContentBrowser.TopBar.Font")
 						.Font( FEditorStyle::Get().GetFontStyle( "FontAwesome.12" ) )
-						.Text( FEditorFontGlyphs::Keyboard_O)
+						.Text( FEditorFontGlyphs::Archive)
 					]
 
 					+ SHorizontalBox::Slot()
